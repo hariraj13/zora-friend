@@ -1,0 +1,4 @@
+project_id = "qiyaqfdnejihjzydakqs"
+
+[functions.zora-chat]
+verify_jwt = false

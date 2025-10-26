@@ -1,0 +1,36 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#F4A460"/>
+  
+  <!-- Fox face background -->
+  <ellipse cx="16" cy="18" rx="12" ry="10" fill="#FF7F50"/>
+  
+  <!-- Fox ears -->
+  <ellipse cx="11" cy="8" rx="3" ry="5" fill="#FF6347"/>
+  <ellipse cx="21" cy="8" rx="3" ry="5" fill="#FF6347"/>
+  
+  <!-- Inner ears -->
+  <ellipse cx="11" cy="9" rx="1.5" ry="2.5" fill="#FFE4E1"/>
+  <ellipse cx="21" cy="9" rx="1.5" ry="2.5" fill="#FFE4E1"/>
+  
+  <!-- Fox snout area -->
+  <ellipse cx="16" cy="22" rx="8" ry="6" fill="#FFE4E1"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="13" cy="16" rx="2" ry="2.5" fill="#FFE4E1"/>
+  <ellipse cx="19" cy="16" rx="2" ry="2.5" fill="#FFE4E1"/>
+  
+  <!-- Eye pupils -->
+  <ellipse cx="13" cy="16" rx="1.2" ry="1.5" fill="#FF6347"/>
+  <ellipse cx="19" cy="16" rx="1.2" ry="1.5" fill="#FF6347"/>
+  
+  <!-- Eye shine -->
+  <circle cx="13.5" cy="15.5" r="0.4" fill="white"/>
+  <circle cx="19.5" cy="15.5" r="0.4" fill="white"/>
+  
+  <!-- Nose -->
+  <ellipse cx="16" cy="20" rx="1" ry="0.8" fill="#FF6347"/>
+  
+  <!-- Mouth -->
+  <path d="M 16 21 Q 14 22.5 12 22 Q 16 23.5 20 22 Q 18 22.5 16 21" fill="none" stroke="#FF6347" stroke-width="1" stroke-linecap="round"/>
+</svg>

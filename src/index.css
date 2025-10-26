@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 250 100% 97%;
+    --foreground: 260 60% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 260 60% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 60% 20%;
+
+    --primary: 260 100% 65%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 280 90% 75%;
+    --secondary-foreground: 260 60% 20%;
+
+    --muted: 250 40% 95%;
+    --muted-foreground: 260 30% 50%;
+
+    --accent: 280 90% 75%;
+    --accent-foreground: 260 60% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 250 30% 90%;
+    --input: 250 30% 90%;
+    --ring: 260 100% 65%;
+
+    --radius: 1rem;
+
+    /* Emotion colors */
+    --emotion-happy: 45 100% 60%;
+    --emotion-calm: 175 70% 50%;
+    --emotion-excited: 15 100% 65%;
+    --emotion-thoughtful: 260 100% 65%;
+    --emotion-sad: 220 70% 60%;
+    
+    /* Gradients */
+    --gradient-happy: linear-gradient(135deg, hsl(45 100% 60%), hsl(35 100% 55%));
+    --gradient-calm: linear-gradient(135deg, hsl(175 70% 50%), hsl(190 65% 55%));
+    --gradient-excited: linear-gradient(135deg, hsl(15 100% 65%), hsl(5 95% 60%));
+    --gradient-thoughtful: linear-gradient(135deg, hsl(260 100% 65%), hsl(280 90% 70%));
+    
+    /* Shadows */
+    --shadow-glow: 0 0 40px;
+    --shadow-soft: 0 10px 30px -10px;
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    --background: 260 60% 8%;
+    --foreground: 250 40% 95%;
+
+    --card: 260 50% 12%;
+    --card-foreground: 250 40% 95%;
+
+    --popover: 260 50% 12%;
+    --popover-foreground: 250 40% 95%;
+
+    --primary: 260 100% 70%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 280 80% 60%;
+    --secondary-foreground: 250 40% 95%;
+
+    --muted: 260 40% 15%;
+    --muted-foreground: 250 30% 60%;
+
+    --accent: 280 80% 60%;
+    --accent-foreground: 250 40% 95%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 260 40% 20%;
+    --input: 260 40% 20%;
+    --ring: 260 100% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
